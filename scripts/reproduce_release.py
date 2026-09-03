@@ -26,6 +26,14 @@ def main() -> None:
         ],
         [
             sys.executable,
+            str(root / "scripts" / "reconstruct_record_level_results.py"),
+            "--data-dir",
+            str(root / "data" / "records"),
+            "--output-dir",
+            str(root / "tables" / "reconstructed"),
+        ],
+        [
+            sys.executable,
             str(root / "scripts" / "generate_final_figures.py"),
             "--data-dir",
             str(root / "data" / "aggregate"),

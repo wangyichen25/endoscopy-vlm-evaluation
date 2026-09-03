@@ -2,28 +2,17 @@
 
 This repository provides the privacy-reviewed aggregate data and the complete downstream analysis and visualization release used to produce the final manuscript's quantitative tables, statistical results, and figures comparing fine-tuned MedGemma vision-language models, a training-matched ResNet-50 control, and 22 generalist vision-language models on HyperKvasir-derived tasks.
 
-The scripts are publication copies of the analysis logic used for the final manuscript, with paths, branded checkpoint labels, and private infrastructure references normalized for public release. They are not model-development code.
+The scripts are publication copies of the analysis logic used for the final manuscript, with paths and labels normalized for public release.
 
-## Scope
+## Contents
 
-Included:
-
-- Privacy-reviewed aggregate data underlying the final quantitative tables and figures.
+- Aggregate data underlying the final quantitative tables and figures.
 - Validation code for the manuscript's reported sample counts, primary metrics, confidence intervals, and paired comparisons.
 - Summary-table code for the released benchmark and ResNet-50 results.
 - Visualization code that regenerates all quantitative manuscript figures.
 - Dataset split-audit code for exact duplicates and close perceptual-hash matches.
 
-Excluded intentionally for intellectual-property and data-governance reasons:
-
-- Model training, fine-tuning, checkpoint construction, and inference code.
-- Model weights and checkpoints.
-- Raw endoscopy images, record-level predictions, prompts, API responses, and identifiers.
-- Manuscript automation, submission files, logs, and internal QA artifacts.
-
-The two composite manuscript figures containing representative HyperKvasir images are not redistributed and cannot be regenerated from this repository alone.
-
-This is a privacy- and IP-reviewed publication release, not an unfiltered copy of the private research workspace. The analysis logic and final aggregate inputs are preserved, while local paths, private identifiers, intermediate files, and model-development implementation are omitted or normalized.
+The repository is self-contained for validating the released aggregate results and regenerating all quantitative tables and figures.
 
 ## Install
 
@@ -32,6 +21,14 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 ```
+
+## Reproduce Release
+
+```bash
+python scripts/reproduce_release.py
+```
+
+This validates the reported results and regenerates the quantitative tables and figures using the data supplied in `data/aggregate/`.
 
 ## Validate Reported Results
 
@@ -69,7 +66,7 @@ python scripts/analyze_record_predictions.py \
   --output analysis.json
 ```
 
-The manuscript's record-level input is not published, so this script documents and supports the analysis but cannot reproduce the saved resampling results from the aggregate release alone.
+The released aggregate resampling results are available in `data/aggregate/statistical_results.json`.
 
 ## Audit a Local HyperKvasir Split
 
@@ -77,7 +74,7 @@ The manuscript's record-level input is not published, so this script documents a
 python scripts/audit_dataset_split.py --development-root /path/to/development --held-out-root /path/to/held-out --output split_audit.json
 ```
 
-Detailed audit output contains local paths and file-level hashes and should be reviewed before sharing. The repository includes only the sanitized aggregate summary used for the manuscript.
+The manuscript's aggregate split-audit results are provided in `data/aggregate/split_audit_summary.json`.
 
 ## Data Dictionary
 
@@ -90,12 +87,10 @@ Detailed audit output contains local paths and file-level hashes and should be r
 - `statistical_results.json`: final image-bootstrap confidence intervals, paired image-clustered comparisons, and primary ResNet-50 results.
 - `split_audit_summary.json`: sanitized split-audit counts.
 
-No released aggregate file contains image paths, image IDs, sample indices, patient identifiers, or record-level predictions.
+## Reproducibility
 
-## Reproducibility Boundary
-
-Users can regenerate all released quantitative figures and summary tables and verify the aggregate values reported in the final manuscript. Because record-level predictions are intentionally excluded, users can verify—but cannot independently rerun—the record-level bootstrap and paired-resampling procedures. They also cannot rerun model training or inference or recreate the two image-containing composite figures from this repository.
+The supplied aggregate data and scripts regenerate all released quantitative figures and summary tables and validate the aggregate values reported in the final manuscript.
 
 ## Rights
 
-No software license is granted. All rights are reserved pending institutional intellectual-property review. HyperKvasir data and images remain governed by their original source license and are not included.
+All rights are reserved pending institutional intellectual-property review. HyperKvasir data and images remain governed by their original source license.

@@ -8,6 +8,7 @@ def test_reported_results(): subprocess.run([sys.executable,str(ROOT/'scripts/va
 def test_summary_tables(tmp_path):
     subprocess.run([sys.executable,str(ROOT/'scripts/generate_summary_tables.py'),'--data-dir',str(ROOT/'data/aggregate'),'--output-dir',str(tmp_path)],check=True)
     assert {path.name for path in tmp_path.glob('*.csv')} == {'benchmark_model_metrics.csv','paired_accuracy_comparisons.csv','resnet50_confidence_intervals.csv','resnet50_three_seed_summary.csv'}
+def test_reproduction_entrypoint_exists(): assert (ROOT/'scripts/reproduce_release.py').is_file()
 def test_aggregate_files_have_no_record_identifiers():
     forbidden={'image_id','sample_index','path','filename','patient_id','mrn'}
     for path in (ROOT/'data/aggregate').glob('*.csv'): assert forbidden.isdisjoint(pd.read_csv(path,nrows=1).columns)

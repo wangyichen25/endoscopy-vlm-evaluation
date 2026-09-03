@@ -1,0 +1,421 @@
+model,true_label,predicted_label,count,row_proportion
+Fine-tuned MedGemma-27B,Barrett's esophagus,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Esophagitis LA grade A,3,0.375
+Fine-tuned MedGemma-27B,Barrett's esophagus,Esophagitis LA grade B-D,3,0.375
+Fine-tuned MedGemma-27B,Barrett's esophagus,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus,Other,2,0.25
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Esophagitis LA grade A,8,0.8
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ileum,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Barrett's esophagus (short segment),Other,2,0.2
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Esophagitis LA grade A,42,0.525
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Esophagitis LA grade B-D,18,0.225
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade A,Other,20,0.25
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Esophagitis LA grade A,8,0.15384615384615385
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Esophagitis LA grade B-D,41,0.7884615384615384
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Esophagitis LA grade B-D,Other,3,0.057692307692307696
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ileum,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Retroflex rectum,1,1.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Hemorrhoid(s),Other,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ileum,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ileum,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Ulcerative colitis grade 2,1,1.0
+Fine-tuned MedGemma-27B,Ileum,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Ileum,Other,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Impacted stool,20,0.7692307692307693
+Fine-tuned MedGemma-27B,Impacted stool,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Impacted stool,Other,6,0.23076923076923078
+Fine-tuned MedGemma-27B,Retroflex rectum,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Retroflex rectum,75,0.9615384615384616
+Fine-tuned MedGemma-27B,Retroflex rectum,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Retroflex rectum,Other,3,0.038461538461538464
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 1,4,0.5714285714285714
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 2,3,0.42857142857142855
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 0-1,Other,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ulcerative colitis grade 1,18,0.45
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ulcerative colitis grade 2,20,0.5
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1,Other,2,0.05
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 2,2,1.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 1-2,Other,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Esophagitis LA grade B-D,1,0.011363636363636364
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ulcerative colitis grade 1,9,0.10227272727272728
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ulcerative colitis grade 2,74,0.8409090909090909
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Ulcerative colitis grade 3,4,0.045454545454545456
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2,Other,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 2,3,0.6
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 3,1,0.2
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 2-3,Other,1,0.2
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ileum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Impacted stool,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ulcerative colitis grade 2,9,0.34615384615384615
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Ulcerative colitis grade 3,17,0.6538461538461539
+Fine-tuned MedGemma-27B,Ulcerative colitis grade 3,Other,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Esophagitis LA grade A,4,0.5
+Fine-tuned MedGemma-4B,Barrett's esophagus,Esophagitis LA grade B-D,1,0.125
+Fine-tuned MedGemma-4B,Barrett's esophagus,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus,Other,3,0.375
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Esophagitis LA grade A,5,0.5
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ileum,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Barrett's esophagus (short segment),Other,5,0.5
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Esophagitis LA grade A,35,0.4375
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Esophagitis LA grade B-D,8,0.1
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade A,Other,37,0.4625
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Esophagitis LA grade A,16,0.3076923076923077
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Esophagitis LA grade B-D,29,0.5576923076923077
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Esophagitis LA grade B-D,Other,7,0.1346153846153846
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ileum,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Retroflex rectum,1,1.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Hemorrhoid(s),Other,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ileum,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ileum,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Ulcerative colitis grade 2,1,1.0
+Fine-tuned MedGemma-4B,Ileum,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Ileum,Other,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Impacted stool,19,0.7307692307692307
+Fine-tuned MedGemma-4B,Impacted stool,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Impacted stool,Other,7,0.2692307692307692
+Fine-tuned MedGemma-4B,Retroflex rectum,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Retroflex rectum,78,1.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ulcerative colitis grade 2,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Retroflex rectum,Other,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 1,5,0.7142857142857143
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 2,1,0.14285714285714285
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 0-1,Other,1,0.14285714285714285
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Esophagitis LA grade A,1,0.025
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ulcerative colitis grade 1,18,0.45
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ulcerative colitis grade 2,16,0.4
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1,Other,5,0.125
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 1,1,0.5
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 2,1,0.5
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Ulcerative colitis grade 3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 1-2,Other,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Esophagitis LA grade B-D,1,0.011363636363636364
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ulcerative colitis grade 1,18,0.20454545454545456
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ulcerative colitis grade 2,62,0.7045454545454546
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Ulcerative colitis grade 3,4,0.045454545454545456
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2,Other,3,0.03409090909090909
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 2,4,0.8
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Ulcerative colitis grade 3,1,0.2
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 2-3,Other,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Barrett's esophagus,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Barrett's esophagus (short segment),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Esophagitis LA grade A,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Esophagitis LA grade B-D,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Hemorrhoid(s),0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ileum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Impacted stool,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Retroflex rectum,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ulcerative colitis grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ulcerative colitis grade 1,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ulcerative colitis grade 1-2,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ulcerative colitis grade 2,18,0.6923076923076923
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ulcerative colitis grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Ulcerative colitis grade 3,8,0.3076923076923077
+Fine-tuned MedGemma-4B,Ulcerative colitis grade 3,Other,0,0.0

@@ -1,0 +1,181 @@
+model,true_label,predicted_label,count,row_proportion
+Fine-tuned MedGemma-27B,BBPS grade 0-1,BBPS grade 0-1,125,0.9689922480620154
+Fine-tuned MedGemma-27B,BBPS grade 0-1,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Cecum,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Normal z line,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Pylorus,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 0-1,Other,4,0.031007751937984496
+Fine-tuned MedGemma-27B,BBPS grade 2-3,BBPS grade 0-1,4,0.017467248908296942
+Fine-tuned MedGemma-27B,BBPS grade 2-3,BBPS grade 2-3,220,0.9606986899563319
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Cecum,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Normal z line,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Pylorus,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,BBPS grade 2-3,Other,5,0.021834061135371178
+Fine-tuned MedGemma-27B,Cecum,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Cecum,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Cecum,Cecum,193,0.9601990049751243
+Fine-tuned MedGemma-27B,Cecum,Colon polyp(s),1,0.004975124378109453
+Fine-tuned MedGemma-27B,Cecum,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Cecum,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,Cecum,Normal z line,0,0.0
+Fine-tuned MedGemma-27B,Cecum,Pylorus,0,0.0
+Fine-tuned MedGemma-27B,Cecum,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,Cecum,Other,7,0.03482587064676617
+Fine-tuned MedGemma-27B,Colon polyp(s),BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Cecum,0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Colon polyp(s),200,0.975609756097561
+Fine-tuned MedGemma-27B,Colon polyp(s),Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Normal z line,0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Pylorus,0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,Colon polyp(s),Other,5,0.024390243902439025
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Cecum,0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Colon polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Dyed-lifted polyp(s),195,0.975
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Dyed resection margin(s),5,0.025
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Normal z line,0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Pylorus,0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,Dyed-lifted polyp(s),Other,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Cecum,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Colon polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Dyed-lifted polyp(s),13,0.06598984771573604
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Dyed resection margin(s),184,0.934010152284264
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Normal z line,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Pylorus,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,Dyed resection margin(s),Other,0,0.0
+Fine-tuned MedGemma-27B,Normal z line,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Normal z line,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Normal z line,Cecum,0,0.0
+Fine-tuned MedGemma-27B,Normal z line,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Normal z line,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Normal z line,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,Normal z line,Normal z line,155,0.8333333333333334
+Fine-tuned MedGemma-27B,Normal z line,Pylorus,2,0.010752688172043012
+Fine-tuned MedGemma-27B,Normal z line,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,Normal z line,Other,29,0.15591397849462366
+Fine-tuned MedGemma-27B,Pylorus,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Pylorus,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Pylorus,Cecum,0,0.0
+Fine-tuned MedGemma-27B,Pylorus,Colon polyp(s),1,0.005025125628140704
+Fine-tuned MedGemma-27B,Pylorus,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Pylorus,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,Pylorus,Normal z line,3,0.01507537688442211
+Fine-tuned MedGemma-27B,Pylorus,Pylorus,194,0.9748743718592965
+Fine-tuned MedGemma-27B,Pylorus,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-27B,Pylorus,Other,1,0.005025125628140704
+Fine-tuned MedGemma-27B,Retroflex stomach,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Cecum,0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Normal z line,0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Pylorus,0,0.0
+Fine-tuned MedGemma-27B,Retroflex stomach,Retroflex stomach,150,0.9868421052631579
+Fine-tuned MedGemma-27B,Retroflex stomach,Other,2,0.013157894736842105
+Fine-tuned MedGemma-4B,BBPS grade 0-1,BBPS grade 0-1,123,0.9534883720930233
+Fine-tuned MedGemma-4B,BBPS grade 0-1,BBPS grade 2-3,1,0.007751937984496124
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Cecum,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Normal z line,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Pylorus,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 0-1,Other,5,0.03875968992248062
+Fine-tuned MedGemma-4B,BBPS grade 2-3,BBPS grade 0-1,1,0.004366812227074236
+Fine-tuned MedGemma-4B,BBPS grade 2-3,BBPS grade 2-3,225,0.982532751091703
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Cecum,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Normal z line,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Pylorus,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,BBPS grade 2-3,Other,3,0.013100436681222707
+Fine-tuned MedGemma-4B,Cecum,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Cecum,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Cecum,Cecum,193,0.9601990049751243
+Fine-tuned MedGemma-4B,Cecum,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Cecum,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Cecum,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,Cecum,Normal z line,0,0.0
+Fine-tuned MedGemma-4B,Cecum,Pylorus,0,0.0
+Fine-tuned MedGemma-4B,Cecum,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,Cecum,Other,8,0.03980099502487562
+Fine-tuned MedGemma-4B,Colon polyp(s),BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),Cecum,0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),Colon polyp(s),196,0.9560975609756097
+Fine-tuned MedGemma-4B,Colon polyp(s),Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),Normal z line,0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),Pylorus,1,0.004878048780487805
+Fine-tuned MedGemma-4B,Colon polyp(s),Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,Colon polyp(s),Other,8,0.03902439024390244
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Cecum,0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Dyed-lifted polyp(s),183,0.915
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Dyed resection margin(s),17,0.085
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Normal z line,0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Pylorus,0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,Dyed-lifted polyp(s),Other,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Cecum,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Dyed-lifted polyp(s),5,0.025380710659898477
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Dyed resection margin(s),191,0.9695431472081218
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Normal z line,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Pylorus,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,Dyed resection margin(s),Other,1,0.005076142131979695
+Fine-tuned MedGemma-4B,Normal z line,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Normal z line,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Normal z line,Cecum,0,0.0
+Fine-tuned MedGemma-4B,Normal z line,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Normal z line,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Normal z line,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,Normal z line,Normal z line,157,0.8440860215053764
+Fine-tuned MedGemma-4B,Normal z line,Pylorus,4,0.021505376344086023
+Fine-tuned MedGemma-4B,Normal z line,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,Normal z line,Other,25,0.13440860215053763
+Fine-tuned MedGemma-4B,Pylorus,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Pylorus,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Pylorus,Cecum,0,0.0
+Fine-tuned MedGemma-4B,Pylorus,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Pylorus,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Pylorus,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,Pylorus,Normal z line,1,0.005025125628140704
+Fine-tuned MedGemma-4B,Pylorus,Pylorus,195,0.9798994974874372
+Fine-tuned MedGemma-4B,Pylorus,Retroflex stomach,0,0.0
+Fine-tuned MedGemma-4B,Pylorus,Other,3,0.01507537688442211
+Fine-tuned MedGemma-4B,Retroflex stomach,BBPS grade 0-1,0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,BBPS grade 2-3,0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Cecum,0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Colon polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Dyed-lifted polyp(s),0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Dyed resection margin(s),0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Normal z line,0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Pylorus,0,0.0
+Fine-tuned MedGemma-4B,Retroflex stomach,Retroflex stomach,150,0.9868421052631579
+Fine-tuned MedGemma-4B,Retroflex stomach,Other,2,0.013157894736842105

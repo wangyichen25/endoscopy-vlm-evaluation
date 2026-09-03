@@ -5,6 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 SPEC=importlib.util.spec_from_file_location('record_analysis',ROOT/'scripts/analyze_record_predictions.py')
 record_analysis=importlib.util.module_from_spec(SPEC); SPEC.loader.exec_module(record_analysis)
 def test_reported_results(): subprocess.run([sys.executable,str(ROOT/'scripts/validate_reported_results.py'),'--data-dir',str(ROOT/'data/aggregate')],check=True)
+def test_benchmark_metrics_are_complete(): assert pd.read_csv(ROOT/'data/aggregate/benchmark_metrics.csv')[['accuracy','macro_f1']].notna().all().all()
 def test_summary_tables(tmp_path):
     subprocess.run([sys.executable,str(ROOT/'scripts/generate_summary_tables.py'),'--data-dir',str(ROOT/'data/aggregate'),'--output-dir',str(tmp_path)],check=True)
     assert {path.name for path in tmp_path.glob('*.csv')} == {'benchmark_model_metrics.csv','paired_accuracy_comparisons.csv','resnet50_confidence_intervals.csv','resnet50_three_seed_summary.csv'}

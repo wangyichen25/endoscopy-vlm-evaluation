@@ -8,7 +8,7 @@ def close(actual,expected,label,tol=5e-4):
     if not np.isclose(actual,expected,rtol=0,atol=tol): raise AssertionError(f'{label}: expected {expected}, found {actual}')
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--data-dir',type=Path,default=Path('data/aggregate')); args=parser.parse_args(); data=args.data_dir
-    benchmark=pd.read_csv(data/'benchmark_metrics.csv'); assert len(benchmark)==25 and benchmark.model.nunique()==25
+    benchmark=pd.read_csv(data/'benchmark_metrics.csv'); assert len(benchmark)==25 and benchmark.model.nunique()==25; assert benchmark[['accuracy','macro_f1']].notna().all().all(); assert benchmark[['accuracy','macro_f1']].apply(lambda column: column.between(0,1).all()).all()
     expected={'Fine-tuned MedGemma-27B':(.928125,.805),'Fine-tuned MedGemma-4B':(.925,.839),'ResNet-50 (seed 42)':(.840625,.6969699842167872)}
     for model,(accuracy,macro_f1) in expected.items():
         row=benchmark[benchmark.model.eq(model)].iloc[0]; close(row.accuracy,accuracy,f'{model} accuracy'); close(row.macro_f1,macro_f1,f'{model} macro-F1'); close(row.evaluable_count,320,f'{model} evaluable count',0)

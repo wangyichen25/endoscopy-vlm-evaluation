@@ -12,12 +12,12 @@ COLORS={"Fine-tuned MedGemma-27B":"#2166AC","Fine-tuned MedGemma-4B":"#D89B25","
 
 def benchmark(data,out):
     frame=pd.read_csv(data/'benchmark_metrics.csv').sort_values(['accuracy','model'])
+    if frame[['accuracy','macro_f1']].isna().any().any(): raise ValueError('Benchmark accuracy and macro-F1 must be complete for all models')
     labels=frame.model.tolist(); y=np.arange(len(frame)); colors=[COLORS.get(x,'#B8B8B8') for x in labels]
     fig,axes=plt.subplots(1,2,figsize=(14.8,9.9),sharey=True,facecolor='white')
     for ax,values,xlabel,title in ((axes[0],frame.accuracy.to_numpy()*100,'Accuracy (%)','A. Accuracy'),(axes[1],frame.macro_f1.to_numpy()*100,'Macro-F1 (%)','B. Macro-F1')):
         bars=ax.barh(y,values,color=colors,edgecolor='#5D5D5D',linewidth=.45); ax.set_xlim(0,100); ax.set_xlabel(xlabel,fontsize=10.5,labelpad=8); ax.set_title(title,fontsize=11.5,loc='left',pad=10); ax.xaxis.grid(True,color='#D8D8D8',linewidth=.65,linestyle='--'); ax.set_axisbelow(True); ax.spines[['top','right']].set_visible(False)
-        for bar,value in zip(bars,values):
-            if np.isfinite(value): ax.text(min(value+.8,98.5),bar.get_y()+bar.get_height()/2,f'{value:.1f}%',va='center',ha='left' if value<97 else 'right',fontsize=8.7,color='#222222')
+        for bar,value in zip(bars,values): ax.text(min(value+.8,98.5),bar.get_y()+bar.get_height()/2,f'{value:.1f}%',va='center',ha='left' if value<97 else 'right',fontsize=8.7,color='#222222')
     axes[0].set_yticks(y,labels,fontsize=9.3); axes[1].tick_params(axis='y',left=False,labelleft=False)
     fig.suptitle('Accuracy and macro-F1 on the internal held-out prompt benchmark',fontsize=13,y=.985); fig.text(.18,.948,'320 randomly sampled prompt-answer records from 303 held-out images',fontsize=9.5,color='#444444'); fig.text(.18,.026,'Macro-F1 is the unweighted mean across prespecified labels, retaining classes with F1 = 0.\nBlue/gold: fine-tuned MedGemma; orange: training-matched ResNet-50; gray: zero-shot generalist VLMs.',fontsize=8.1,color='#444444'); fig.subplots_adjust(left=.18,right=.975,top=.90,bottom=.105,wspace=.16); fig.savefig(out/'benchmark_accuracy_macro_f1.png',dpi=300,bbox_inches='tight',pad_inches=.12,facecolor='white'); plt.close(fig)
 

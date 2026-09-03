@@ -1,0 +1,124 @@
+{
+  "confidence_intervals": {
+    "image_full": {
+      "accuracy": {
+        "bootstrap_mean": 0.6648115928369464,
+        "lower_95": 0.644674835061263,
+        "replicates": 5000,
+        "upper_95": 0.6842601319509897
+      },
+      "macro_f1": {
+        "bootstrap_mean": 0.4475057090527241,
+        "lower_95": 0.41510597497183294,
+        "replicates": 5000,
+        "upper_95": 0.4878964072270541
+      }
+    },
+    "prompt_benchmark": {
+      "accuracy": {
+        "bootstrap_mean": 0.8407062392374862,
+        "lower_95": 0.8005981595092025,
+        "replicates": 5000,
+        "upper_95": 0.8802616296384537
+      },
+      "macro_f1": {
+        "bootstrap_mean": 0.6999547175503195,
+        "lower_95": 0.6279777011639333,
+        "replicates": 5000,
+        "upper_95": 0.7807903664174615
+      }
+    },
+    "prompt_full": {
+      "accuracy": {
+        "bootstrap_mean": 0.8324185266413733,
+        "lower_95": 0.8215687314333828,
+        "replicates": 5000,
+        "upper_95": 0.8435645692994743
+      },
+      "macro_f1": {
+        "bootstrap_mean": 0.5914439557916761,
+        "lower_95": 0.559518638089491,
+        "replicates": 5000,
+        "upper_95": 0.6263720266733395
+      }
+    }
+  },
+  "paired_comparisons": {
+    "all_prompts_6388": {
+      "accuracy_difference_resnet50_minus_finetuned_medgemma_27b": -0.10206637445209768,
+      "bootstrap_replicates": 5000,
+      "resnet50_accuracy": 0.8323418910457107,
+      "difference_lower_95": -0.1130608639040426,
+      "difference_upper_95": -0.09109912962039692,
+      "finetuned_medgemma_27b_accuracy": 0.9344082654978084,
+      "n_image_clusters": 2122,
+      "n_records": 6388,
+      "paired_cluster_permutation_p": 0.00009999000099990002,
+      "permutation_replicates": 10000
+    },
+    "benchmark_prompts_320": {
+      "accuracy_difference_resnet50_minus_finetuned_medgemma_27b": -0.0875,
+      "bootstrap_replicates": 5000,
+      "resnet50_accuracy": 0.840625,
+      "difference_lower_95": -0.12576735347455337,
+      "difference_upper_95": -0.050473186119873815,
+      "finetuned_medgemma_27b_accuracy": 0.928125,
+      "n_image_clusters": 303,
+      "n_records": 320,
+      "paired_cluster_permutation_p": 0.00009999000099990002,
+      "permutation_replicates": 10000
+    },
+    "image_only_2122": {
+      "accuracy_difference_resnet50_minus_finetuned_medgemma_27b": -0.23185673892554196,
+      "bootstrap_replicates": 5000,
+      "resnet50_accuracy": 0.6649387370405277,
+      "difference_lower_95": -0.2521206409048068,
+      "difference_upper_95": -0.21206409048067862,
+      "finetuned_medgemma_27b_accuracy": 0.8967954759660698,
+      "n_image_clusters": 2122,
+      "n_records": 2122,
+      "paired_cluster_permutation_p": 0.00009999000099990002,
+      "permutation_replicates": 10000
+    }
+  },
+  "primary_resnet50_metrics": {
+    "benchmark_prompt_records": 320,
+    "benchmark_unique_images": 303,
+    "image_full": {
+      "accuracy": 0.6649387370405277,
+      "hard_prediction_macro_auroc": 0.7017029948198892,
+      "macro_f1": 0.4312999712301691,
+      "macro_npv": 0.9849078490135017,
+      "macro_ppv": 0.7841297474672244,
+      "macro_precision_sklearn": 0.5454815634554605,
+      "macro_recall_sklearn": 0.41940194369832023,
+      "macro_sensitivity": 0.41940194369832023,
+      "macro_specificity": 0.9840040459414583,
+      "mcc": 0.6659421957617174,
+      "n": 2122,
+      "probability_macro_auroc_ovr": 0.9760173857345962
+    },
+    "prompt_full": {
+      "accuracy": 0.8323418910457107,
+      "hard_prediction_macro_auroc": 0.784622262252739,
+      "macro_f1": 0.5853015041001793,
+      "macro_npv": 0.9944927800471377,
+      "macro_ppv": 0.7741960928026992,
+      "macro_sensitivity": 0.5748507757332215,
+      "macro_specificity": 0.9943937487722565,
+      "mcc": 0.8233315763866184,
+      "n": 6388
+    },
+    "prompt_benchmark": {
+      "accuracy": 0.840625,
+      "hard_prediction_macro_auroc": 0.856421920431237,
+      "macro_f1": 0.6969699842167872,
+      "macro_npv": 0.9933427120300619,
+      "macro_ppv": 0.8202014538769313,
+      "macro_sensitivity": 0.7196409189257622,
+      "macro_specificity": 0.9932248050592434,
+      "mcc": 0.8334319932917787,
+      "n": 320
+    }
+  }
+}
